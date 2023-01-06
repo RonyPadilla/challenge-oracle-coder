@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+    background-color: #F2F4FC;
+}
+
+@media (min-width: 800px) {
+    #img-logo {
+        margin: 20px;
+    }
+
+    #section-content {
+        display: block;
+        padding-right: 25%;
+    }
+
+    textarea::placeholder {
+        color: #0A3871;
+        font-size: 150%;
+    }
+
+
+    #text-info {
+        width: 50vw;
+        height: 60vh;
+        margin: 20px;
+        font-size: 1.2em;
+        border: none;
+        background-color: #F2F4FC;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    button {
+        width: 23.5vw;
+        height: 67px;
+        border-radius: 24px;
+        border: none;
+        margin-left: 2vw;
+        background-color: #0A3871;
+        color: white;
+    }
+
+
+    button:hover {
+        transition: 0.5s;
+        background-color: #D9DEE8;
+        border: 1px solid #0A3871;
+        cursor: pointer;
+        color: black;
+
+    }
+
+    #button-Copy {
+        display: block;
+        width: 23.5vw;
+        height: 67px;
+        border-radius: 24px;
+        border: none;
+        margin: auto;
+        background-color: #0A3871;
+        color: white;
+    }
+
+    #button-Copy:hover {
+        transition: 0.5s;
+        background-color: #D9DEE8;
+        border: 1px solid #0A3871;
+        cursor: pointer;
+        color: black;
+    }
+
+    #sections {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #section-Right {
+        position: fixed;
+        left: 65.5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: -10vh;
+        border-radius: 12px;
+        height: 90vh;
+        width: 30vw;
+        background-color: white;
+        box-shadow: 0px 24px 32px -8px #00000014;
+    }
+
+
+    #section-error {
+        position: fixed;
+        left: 65.5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: -10vh;
+        border-radius: 12px;
+        height: 90vh;
+        width: 30vw;
+        background-color: white;
+        box-shadow: 0px 24px 32px -8px #00000014;
+    }
+
+    #texto-Right {
+        margin: 30px;
+        width: 20vw;
+        height: 60vh;
+        font-size: 1.2em;
+        border: none;
+        background-color: #FffF;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    h1,
+    p {
+        font-family: 'Source Sans Pro', sans-serif;
+        ;
+    }
+
+    #img-error {
+        margin-top: 15%;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    #img-logo {
+        margin: 20px;
+    }
+
+    #section-content {
+        display: block;
+    }
+
+    textarea::placeholder {
+        color: #0A3871;
+        font-size: 150%;
+    }
+
+
+    #text-info {
+        width: 80vw;
+        height: 60vh;
+        margin: 20px;
+        font-size: 0.8em;
+        border: none;
+        background-color: #F2F4FC;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    #button-Encrypt {
+        border-radius: 24px;
+        border: none;
+        width: 82vw;
+        height: 7vh;
+        margin: 20px;
+        background-color: #0A3871;
+        color: white;
+    }
+
+    #button-Encrypt:hover {
+        transition: 0.5s;
+        background-color: #D9DEE8;
+        border: 1px solid #0A3871;
+        cursor: pointer;
+        color: black;
+    }
+
+    #button-Decrypt {
+        border-radius: 24px;
+        width: 82vw;
+        height: 7vh;
+        border: none;
+        margin: 20px;
+        background-color: #0A3871;
+        color: white;
+    }
+
+    #button-Decrypt:hover {
+        transition: 0.5s;
+        background-color: #D9DEE8;
+        border: 1px solid #0A3871;
+        cursor: pointer;
+        color: black;
+    }
+
+    #button-Copy {
+        display: block;
+        width: 70vw;
+        height: 7vh;
+        border-radius: 24px;
+        border: none;
+        margin: auto;
+        background-color: #0A3871;
+        color: white;
+    }
+
+    #button-Copy:hover {
+        transition: 0.5s;
+        background-color: #D9DEE8;
+        border: 1px solid #0A3871;
+        cursor: pointer;
+        color: black;
+    }
+
+    #sections {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #section-Right {
+        position: absolute;
+        text-align: center;
+        margin: 25px;
+        border-radius: 12px;
+        width: 82vw;
+        height: 70vh;
+        top: 890px;
+        background-color: white;
+        box-shadow: 0px 24px 32px -8px #00000014;
+    }
+
+
+    #section-error {
+        position: absolute;
+        text-align: center;
+        margin: 25px;
+        border-radius: 12px;
+        width: 82vw;
+        height: 70vh;
+        top: 890px;
+        background-color: white;
+        box-shadow: 0px 24px 32px -8px #00000014;
+    }
+
+    #texto-Right {
+        margin: 20px;
+        width: 70vw;
+        height: 50vh;
+        font-size: 1.2em;
+        border: none;
+        background-color: white;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    h1,
+    p {
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    #img-error {
+        margin-top: 15%;
+    }
+
+}

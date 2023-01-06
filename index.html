@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <picture><img id="img-logo" src="img\Vector.png" alt="img-logo"></picture>
+    </nav>
+    <div id="sections">
+        <section id="section-content">
+            <form action="">
+
+                <div>
+                    <textarea name="" id="text-info" placeholder="Ingrese el texto aqui"></textarea>
+                </div>
+                <div id="buttons">
+                    <button type="button" id="button-Encrypt">Encriptar</button>
+                    <button type="button" id="button-Decrypt">Desencriptar</button>
+                </div>
+            </form>
+        </section>
+        <section id="section-Right">
+            <textarea name="" id="texto-Right" readonly></textarea>
+            <button type="button" id="button-Copy">Copiar</button>
+        </section>
+        <section id="section-error">
+            <picture id="img-error"><img src="img\Muñeco.png" alt="img-error"></picture>
+            <div id="div-Error">
+                <h1>Ningún mensaje fue <br> encontrado</h1>
+                <p>Ingresa el texto que desees encriptar o <br> desencriptar.</p>
+            </div>
+        </section>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
